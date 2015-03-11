@@ -22,7 +22,7 @@ SCHEDULER.every '25s' do
                             uuid: resp[i][:@uuid] , 
                             classname:  resp[i][:@classname] , 
                             uri: resp[i][:@uri],
-                            uuids: resp[i][:@uuid][0,9],
+                            uuids: resp[i][:@uuid][0,6],
                             noun: resp[i][:@noun],
                             cit: "1234",
                             din: "nodelistnum#{i}"
